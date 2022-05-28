@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OfficeAppLevarne.Views.MainPage"
+             xmlns:model="clr-namespace:OfficeAppLevarne.Models"
+             xmlns:viewmodel="clr-namespace:OfficeAppLevarne.ViewModels"
+             x:DataType="viewmodel:WeeksViewModel"
+             Title="{Binding Title}">
+
+    <Grid ColumnDefinitions="*, *"
+          ColumnSpacing="5"
+          RowDefinitions="*, Auto"
+          RowSpacing="0">
+        <CollectionView ItemsSource="{Binding Weeks}"
+                        SelectionMode="None"
+                        Grid.ColumnSpan="2">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="model:Week">
+                    <Grid Padding="10">
+                        <StackLayout>
+                            <Frame>
+                                <Button Text="{Binding WeekId}"
+                                        Clicked="TapGestureRecognizer_Tapped"
+                                        TextColor="White"
+                                        BackgroundColor="Orange"
+                                        Grid.ColumnSpan="2"
+                                        VerticalOptions="CenterAndExpand"
+                                        HorizontalOptions="FillAndExpand" />
+                            </Frame>
+                        </StackLayout>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Button Text="Get Weeks"
+                Command="{Binding GetWeeksCommand}"
+                IsEnabled="{Binding IsNotBusy}"
+                Grid.Row="1"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                Margin="8" />
+
+        <ActivityIndicator IsVisible="{Binding IsBusy}"
+                           IsRunning="{Binding IsBusy}"
+                           HorizontalOptions="FillAndExpand"
+                           VerticalOptions="CenterAndExpand"
+                           Grid.RowSpan="2"
+                           Grid.ColumnSpan="2" />
+    </Grid>
+
+</ContentPage>

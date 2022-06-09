@@ -3,13 +3,19 @@
     x:Class="OfficeAppLevarne.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:view="clr-namespace:OfficeAppLevarne.Views"
-    Shell.FlyoutBehavior="Disabled">
+    xmlns:views="clr-namespace:OfficeAppLevarne.Views"
+    Shell.FlyoutBehavior="Flyout">
 
-    <ShellContent
-        Shell.NavBarIsVisible="True"
-        Title="Office Application"
-        ContentTemplate="{DataTemplate view:MainPage}"
-        Route="MainPage" />
+    <ShellContent Shell.NavBarIsVisible="True"
+                  Shell.NavBarHasShadow="True"
+                  Title="Weeks overview"
+                  ContentTemplate="{DataTemplate views:MainPage}"
+                  Route="MainPage" />
+    <ShellContent Shell.NavBarIsVisible="True"
+                  Shell.NavBarHasShadow="True"
+                  Title="Profile"
+                  ContentTemplate="{DataTemplate views:ProfilePage}"
+                  Route="ProfilePage" />
+
 
 </Shell>

@@ -21,6 +21,7 @@ namespace OfficeAppLevarne.ViewModels
             Title = "Weeks Overview";
             this.weeksService = weeksService;
             GetWeeksCommand = new Command(async () => await GetWeeksAsync());
+            GetWeeksCommand.Execute(this);
         }
 
         async Task GetWeeksAsync()

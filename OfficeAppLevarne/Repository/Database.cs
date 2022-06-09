@@ -15,9 +15,10 @@ namespace OfficeAppLevarne.Repository
 
         public Database()
         {
-            var dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "levarne-office-app.db");
+            var dbPath = Path.Combine(FileSystem.AppDataDirectory, "OfficeAppLevarne.db");
             _database = new SQLiteConnection(dbPath);
             _database.CreateTable<Week>();
+            _database.CreateTable<Person>();
         }
 
         public List<Week> List()
@@ -36,6 +37,25 @@ namespace OfficeAppLevarne.Repository
         }
 
         public int Delete(Week entity)
+        {
+            return _database.Delete(entity);
+        }
+        public Person getPerson()
+        {
+            return _database.Table<Person>().FirstOrDefault();
+        }
+
+        public int CreatePerson(Person entity)
+        {
+            return _database.Insert(entity);
+        }
+
+        public int UpdatePerson(Person entity)
+        {
+            return _database.Update(entity);
+        }
+
+        public int Delete(Person entity)
         {
             return _database.Delete(entity);
         }

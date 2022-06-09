@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace OfficeAppLevarne.Models
@@ -19,6 +20,12 @@ namespace OfficeAppLevarne.Models
 
         [TextBlob("blobbedPersons")]
         public List<Person> persons { get; set; }
+
+        [JsonIgnore]
+        public int spotsAvailable => capacity - persons.Count;
+
+        [JsonIgnore]
+        public string ButtonText => $"{name} - ({spotsAvailable}) available spots";
 
     }
 }

@@ -5,8 +5,34 @@
              xmlns:model="clr-namespace:OfficeAppLevarne.Models"
              xmlns:viewmodel="clr-namespace:OfficeAppLevarne.ViewModels"
              x:DataType="viewmodel:DaysViewModel"
-             Title="{Binding Title}"
-             >
-    <ScrollView>
-    </ScrollView>
+             BackgroundColor="#f5f8fd"
+             Title="{Binding Title}">
+
+    <Grid ColumnDefinitions="*, *"
+          ColumnSpacing="5"
+          RowDefinitions="*, Auto"
+          RowSpacing="0">
+        <CollectionView ItemsSource="{Binding Days}"
+                        SelectionMode="None"
+                        Grid.ColumnSpan="2">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="model:Day">
+                    <Grid Padding="10">
+                        <StackLayout>
+                            <Frame  BackgroundColor="#f5f8fd"
+                                    BorderColor="Transparent">
+                                <Button Text="{Binding ButtonText}"
+                                        Clicked="TapGestureRecognizer_Tapped"
+                                        TextColor="White"
+                                        FontAttributes="Bold"
+                                        BackgroundColor="#007aff"
+                                        VerticalOptions="CenterAndExpand"
+                                        HorizontalOptions="FillAndExpand" />
+                            </Frame>
+                        </StackLayout>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
 </ContentPage>

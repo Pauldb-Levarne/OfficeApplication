@@ -1,4 +1,6 @@
-﻿using OfficeAppLevarne.Services;
+﻿using Microsoft.Maui.LifecycleEvents;
+using OfficeAppLevarne.Repository;
+using OfficeAppLevarne.Services;
 using OfficeAppLevarne.ViewModels;
 using OfficeAppLevarne.Views;
 
@@ -18,9 +20,15 @@ public static class MauiProgram
 			});
 		builder.Services.AddTransient<MainPage>();
 		builder.Services.AddSingleton<WeeksService>();
+		builder.Services.AddSingleton<DaysService>();
 		builder.Services.AddTransient<WeeksViewModel>();
 		builder.Services.AddTransient<DaysViewModel>();
 		builder.Services.AddTransient<DaysPage>();
+		builder.Services.AddTransient<DaysDetailsPage>();
+		builder.Services.AddTransient<DaysDetailsViewModel>();
+		builder.Services.AddTransient<ProfilePage>();
+		builder.Services.AddTransient<ProfileViewModel>();
+		builder.Services.AddSingleton<Database>();
 
 		return builder.Build();
 	}

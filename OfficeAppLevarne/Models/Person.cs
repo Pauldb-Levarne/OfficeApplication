@@ -11,7 +11,7 @@ namespace OfficeAppLevarne.Models
     public class Person
     {
         [PrimaryKey]
-        [JsonIgnore]
+        [System.Text.Json.Serialization.JsonIgnore]
         public int Id { get; set; }
         public string name { get; set; }
 

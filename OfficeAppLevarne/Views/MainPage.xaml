@@ -5,48 +5,51 @@
              xmlns:model="clr-namespace:OfficeAppLevarne.Models"
              xmlns:viewmodel="clr-namespace:OfficeAppLevarne.ViewModels"
              x:DataType="viewmodel:WeeksViewModel"
+             BackgroundColor="#f5f8fd"
              Title="{Binding Title}">
+    <RefreshView IsRefreshing="{Binding IsBusy}"
+                 Command="{Binding GetWeeksCommand}">
+        <ScrollView>
+            <Grid ColumnDefinitions="*, *"
+                  ColumnSpacing="0"
+                  RowDefinitions="*, Auto"
+                  RowSpacing="0">
+                <CollectionView ItemsSource="{Binding Weeks}"
+                                SelectionMode="None"
+                                Grid.ColumnSpan="2">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="model:Week">
+                            <Grid>
+                                <StackLayout>
+                                    <Frame BackgroundColor="#f5f8fd"
+                                           BorderColor="Transparent">
+                                        <Button Text="{Binding WeekId}"
+                                                Clicked="TapGestureRecognizer_Tapped"
+                                                TextColor="White"
+                                                FontAttributes="Bold"
+                                                BackgroundColor="#007aff"
+                                                Grid.ColumnSpan="2"
+                                                VerticalOptions="CenterAndExpand"
+                                                HorizontalOptions="FillAndExpand" />
+                                    </Frame>
+                                </StackLayout>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
 
-    <Grid ColumnDefinitions="*, *"
-          ColumnSpacing="5"
-          RowDefinitions="*, Auto"
-          RowSpacing="0">
-        <CollectionView ItemsSource="{Binding Weeks}"
-                        SelectionMode="None"
-                        Grid.ColumnSpan="2">
-            <CollectionView.ItemTemplate>
-                <DataTemplate x:DataType="model:Week">
-                    <Grid Padding="10">
-                        <StackLayout>
-                            <Frame>
-                                <Button Text="{Binding WeekId}"
-                                        Clicked="TapGestureRecognizer_Tapped"
-                                        TextColor="White"
-                                        BackgroundColor="Orange"
-                                        Grid.ColumnSpan="2"
-                                        VerticalOptions="CenterAndExpand"
-                                        HorizontalOptions="FillAndExpand" />
-                            </Frame>
-                        </StackLayout>
-                    </Grid>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
+                <ActivityIndicator IsVisible="{Binding IsBusy}"
+                                   IsRunning="{Binding IsBusy}"
+                                   HorizontalOptions="FillAndExpand"
+                                   VerticalOptions="CenterAndExpand"
+                                   Grid.RowSpan="2"
+                                   Color="Black"
+                                   Grid.ColumnSpan="2" />
 
-        <Button Text="Get Weeks"
-                Command="{Binding GetWeeksCommand}"
-                IsEnabled="{Binding IsNotBusy}"
-                Grid.Row="1"
-                Grid.Column="0"
-                Grid.ColumnSpan="2"
-                Margin="8" />
+            </Grid>
+        </ScrollView>
 
-        <ActivityIndicator IsVisible="{Binding IsBusy}"
-                           IsRunning="{Binding IsBusy}"
-                           HorizontalOptions="FillAndExpand"
-                           VerticalOptions="CenterAndExpand"
-                           Grid.RowSpan="2"
-                           Grid.ColumnSpan="2" />
-    </Grid>
+    </RefreshView>
+
 
 </ContentPage>

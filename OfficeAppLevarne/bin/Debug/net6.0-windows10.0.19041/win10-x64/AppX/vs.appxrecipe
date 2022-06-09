@@ -30,33 +30,25 @@
     <AppXManifest Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\bin\Debug\net6.0-windows10.0.19041\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-05-28T19:04:00.696</Modified>
+      <Modified>2022-06-09T15:20:48.947</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\bin\Debug\net6.0-windows10.0.19041\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-05-28T19:03:59.953</Modified>
+      <Modified>2022-06-09T15:20:48.321</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\bin\Debug\net6.0-windows10.0.19041\win10-x64\OfficeAppLevarne.runtimeconfig.json">
       <PackagePath>OfficeAppLevarne.runtimeconfig.json</PackagePath>
-      <Modified>2022-05-28T17:30:38.060</Modified>
+      <Modified>2022-06-09T13:57:08.144</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\bin\Debug\net6.0-windows10.0.19041\win10-x64\OfficeAppLevarne.dll">
       <PackagePath>OfficeAppLevarne.dll</PackagePath>
-      <Modified>2022-05-28T19:03:58.557</Modified>
+      <Modified>2022-06-09T15:20:46.994</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\apphost.exe">
       <PackagePath>OfficeAppLevarne.exe</PackagePath>
-      <Modified>2022-05-28T19:03:58.567</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pauld\.nuget\packages\sqlitepclraw.lib.e_sqlite3.v110_xp\1.1.5\runtimes\win7-x86\native\e_sqlite3.dll">
-      <PackagePath>x86\e_sqlite3.dll</PackagePath>
-      <Modified>2017-05-01T13:27:42.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pauld\.nuget\packages\sqlitepclraw.lib.e_sqlite3.v110_xp\1.1.5\runtimes\win7-x64\native\e_sqlite3.dll">
-      <PackagePath>x64\e_sqlite3.dll</PackagePath>
-      <Modified>2017-05-01T13:27:42.000</Modified>
+      <Modified>2022-06-09T15:20:47.002</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.3\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1058,29 +1050,33 @@
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
       <Modified>2016-06-13T23:06:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pauld\.nuget\packages\sqlite-net-pcl\1.4.118\lib\netstandard1.1\SQLite-net.dll">
+    <AppxPackagedFile Include="C:\Users\pauld\.nuget\packages\sqlite-net-pcl\1.8.116\lib\netstandard2.0\SQLite-net.dll">
       <PackagePath>SQLite-net.dll</PackagePath>
-      <Modified>2017-07-27T16:44:06.000</Modified>
+      <Modified>2021-09-02T21:04:32.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\.nuget\packages\sqlitenetextensions\2.1.0\lib\netstandard1.1\SQLiteNetExtensions.dll">
       <PackagePath>SQLiteNetExtensions.dll</PackagePath>
       <Modified>2018-08-13T22:28:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pauld\.nuget\packages\sqlitepclraw.bundle_green\1.1.5\lib\netcoreapp\SQLitePCLRaw.batteries_green.dll">
-      <PackagePath>SQLitePCLRaw.batteries_green.dll</PackagePath>
-      <Modified>2017-05-01T13:27:04.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pauld\.nuget\packages\sqlitepclraw.bundle_green\1.1.5\lib\netcoreapp\SQLitePCLRaw.batteries_v2.dll">
+    <AppxPackagedFile Include="C:\Users\pauld\.nuget\packages\sqlitepclraw.bundle_green\2.1.0\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
       <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
-      <Modified>2017-05-01T13:27:04.000</Modified>
+      <Modified>2022-05-23T20:51:28.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\.nuget\packages\sqlitepclraw.core\2.1.0\lib\netstandard2.0\SQLitePCLRaw.core.dll">
       <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
       <Modified>2022-05-23T20:49:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pauld\.nuget\packages\sqlitepclraw.provider.e_sqlite3.netstandard11\1.1.5\lib\netstandard1.1\SQLitePCLRaw.provider.e_sqlite3.dll">
+    <AppxPackagedFile Include="C:\Users\pauld\.nuget\packages\sqlitepclraw.provider.dynamic_cdecl\2.1.0\lib\netstandard2.0\SQLitePCLRaw.provider.dynamic_cdecl.dll">
+      <PackagePath>SQLitePCLRaw.provider.dynamic_cdecl.dll</PackagePath>
+      <Modified>2022-05-23T20:49:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pauld\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.1.0\lib\net6.0-windows7.0\SQLitePCLRaw.provider.e_sqlite3.dll">
       <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
-      <Modified>2017-05-01T13:27:20.000</Modified>
+      <Modified>2022-05-23T20:49:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pauld\.nuget\packages\sqlitepclraw.provider.sqlite3\2.1.0\lib\net6.0-windows7.0\SQLitePCLRaw.provider.sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.sqlite3.dll</PackagePath>
+      <Modified>2022-05-23T20:50:02.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\.nuget\packages\microsoft.graphics.win2d\1.0.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
@@ -1090,21 +1086,17 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-03-17T02:11:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pauld\.nuget\packages\runtime.win7-x64.runtime.native.system.io.compression\4.3.0\runtimes\win7-x64\native\clrcompression.dll">
-      <PackagePath>clrcompression.dll</PackagePath>
-      <Modified>2016-11-05T04:34:54.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pauld\.nuget\packages\sqlitepclraw.lib.e_sqlite3.v110_xp\1.1.5\runtimes\win7-x64\native\e_sqlite3.dll">
+    <AppxPackagedFile Include="C:\Users\pauld\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.0\runtimes\win-x64\native\e_sqlite3.dll">
       <PackagePath>e_sqlite3.dll</PackagePath>
-      <Modified>2017-05-01T13:27:42.000</Modified>
+      <Modified>2022-05-23T20:46:04.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\OfficeAppLevarne.deps.json">
       <PackagePath>OfficeAppLevarne.deps.json</PackagePath>
-      <Modified>2022-05-28T19:04:00.506</Modified>
+      <Modified>2022-06-09T15:20:48.703</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\Platforms\Windows\App.xbf">
       <PackagePath>Platforms\Windows\App.xbf</PackagePath>
-      <Modified>2022-05-28T19:03:58.380</Modified>
+      <Modified>2022-06-09T15:20:46.742</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -1112,23 +1104,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-100.png">
       <PackagePath>appiconfgSplashScreen.scale-100.png</PackagePath>
-      <Modified>2022-05-28T14:47:08.561</Modified>
+      <Modified>2022-06-09T13:57:05.175</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-125.png">
       <PackagePath>appiconfgSplashScreen.scale-125.png</PackagePath>
-      <Modified>2022-05-28T14:47:08.579</Modified>
+      <Modified>2022-06-09T13:57:05.192</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-150.png">
       <PackagePath>appiconfgSplashScreen.scale-150.png</PackagePath>
-      <Modified>2022-05-28T14:47:08.609</Modified>
+      <Modified>2022-06-09T13:57:05.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-200.png">
       <PackagePath>appiconfgSplashScreen.scale-200.png</PackagePath>
-      <Modified>2022-05-28T14:47:08.650</Modified>
+      <Modified>2022-06-09T13:57:05.263</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-400.png">
       <PackagePath>appiconfgSplashScreen.scale-400.png</PackagePath>
-      <Modified>2022-05-28T14:47:08.803</Modified>
+      <Modified>2022-06-09T13:57:05.410</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -1140,143 +1132,143 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2022-05-28T14:47:09.105</Modified>
+      <Modified>2022-06-09T13:57:05.692</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2022-05-28T14:47:09.120</Modified>
+      <Modified>2022-06-09T13:57:05.706</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2022-05-28T14:47:09.133</Modified>
+      <Modified>2022-06-09T13:57:05.719</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2022-05-28T14:47:09.155</Modified>
+      <Modified>2022-06-09T13:57:05.742</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2022-05-28T14:47:09.250</Modified>
+      <Modified>2022-06-09T13:57:05.828</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2022-05-28T14:47:08.899</Modified>
+      <Modified>2022-06-09T13:57:05.474</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2022-05-28T14:47:08.903</Modified>
+      <Modified>2022-06-09T13:57:05.478</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2022-05-28T14:47:08.908</Modified>
+      <Modified>2022-06-09T13:57:05.482</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2022-05-28T14:47:08.912</Modified>
+      <Modified>2022-06-09T13:57:05.487</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2022-05-28T14:47:08.917</Modified>
+      <Modified>2022-06-09T13:57:05.493</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2022-05-28T14:47:08.973</Modified>
+      <Modified>2022-06-09T13:57:05.549</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2022-05-28T14:47:08.979</Modified>
+      <Modified>2022-06-09T13:57:05.556</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2022-05-28T14:47:08.985</Modified>
+      <Modified>2022-06-09T13:57:05.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2022-05-28T14:47:08.995</Modified>
+      <Modified>2022-06-09T13:57:05.573</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2022-05-28T14:47:09.014</Modified>
+      <Modified>2022-06-09T13:57:05.596</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2022-05-28T14:47:08.944</Modified>
+      <Modified>2022-06-09T13:57:05.518</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2022-05-28T14:47:08.948</Modified>
+      <Modified>2022-06-09T13:57:05.521</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2022-05-28T14:47:08.953</Modified>
+      <Modified>2022-06-09T13:57:05.526</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2022-05-28T14:47:08.958</Modified>
+      <Modified>2022-06-09T13:57:05.533</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2022-05-28T14:47:08.967</Modified>
+      <Modified>2022-06-09T13:57:05.542</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2022-05-28T14:47:08.921</Modified>
+      <Modified>2022-06-09T13:57:05.497</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2022-05-28T14:47:08.925</Modified>
+      <Modified>2022-06-09T13:57:05.501</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2022-05-28T14:47:08.929</Modified>
+      <Modified>2022-06-09T13:57:05.504</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2022-05-28T14:47:08.934</Modified>
+      <Modified>2022-06-09T13:57:05.508</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2022-05-28T14:47:08.940</Modified>
+      <Modified>2022-06-09T13:57:05.514</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2022-05-28T14:47:09.020</Modified>
+      <Modified>2022-06-09T13:57:05.603</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2022-05-28T14:47:09.028</Modified>
+      <Modified>2022-06-09T13:57:05.612</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2022-05-28T14:47:09.037</Modified>
+      <Modified>2022-06-09T13:57:05.622</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2022-05-28T14:47:09.053</Modified>
+      <Modified>2022-06-09T13:57:05.638</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2022-05-28T14:47:09.094</Modified>
+      <Modified>2022-06-09T13:57:05.680</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2022-05-28T14:47:08.939</Modified>
+      <Modified>2022-06-09T13:57:05.520</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2022-05-28T14:47:08.951</Modified>
+      <Modified>2022-06-09T13:57:05.533</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2022-05-28T14:47:08.966</Modified>
+      <Modified>2022-06-09T13:57:05.546</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2022-05-28T14:47:08.990</Modified>
+      <Modified>2022-06-09T13:57:05.570</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2022-05-28T14:47:09.050</Modified>
+      <Modified>2022-06-09T13:57:05.623</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.300-rc.1.5355\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

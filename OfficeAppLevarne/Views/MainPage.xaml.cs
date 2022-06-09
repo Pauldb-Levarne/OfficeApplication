@@ -18,13 +18,14 @@ public partial class MainPage : ContentPage
 		if (week == null)
 			return;
 
+		var days = week.days.ToList();
+
 
 		await Shell.Current.GoToAsync(nameof(DaysPage), true, new Dictionary<string, object>
 		{
-			{"Week", week }
+			{"Days", days }
 		});
 
     }
-
 }
 

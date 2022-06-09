@@ -13,13 +13,14 @@ namespace OfficeAppLevarne.Services
     public class WeeksService
     {
         HttpClient client = new();
-        private string endpoint = "http://localhost:5050/getWeeks";
+        private string endpoint = "http://localhost:5050/";
+
         
         List<Week> weekList = new();
 
-        public  async Task<List<Week>> GetWeeks()
+        public async Task<List<Week>> GetWeeks()
         {
-            var msg = new HttpRequestMessage(HttpMethod.Get, endpoint);
+            var msg = new HttpRequestMessage(HttpMethod.Get, endpoint + "getWeeks");
             var res = await client.SendAsync(msg);
 
             if (res.IsSuccessStatusCode)

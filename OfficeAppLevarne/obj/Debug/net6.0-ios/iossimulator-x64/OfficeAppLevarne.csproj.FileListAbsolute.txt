@@ -220,7 +220,6 @@ C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\bin\Debug\net6.0-i
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\bin\Debug\net6.0-ios\iossimulator-x64\libxamarin-dotnet-debug.dylib
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\bin\Debug\net6.0-ios\iossimulator-x64\libxamarin-dotnet.a
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\bin\Debug\net6.0-ios\iossimulator-x64\libxamarin-dotnet.dylib
-C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-ios\iossimulator-x64\build-signature\signature
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-ios\iossimulator-x64\mauiimage.inputs
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-ios\iossimulator-x64\mauifont.inputs
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-ios\iossimulator-x64\mauisplash.inputs
@@ -271,3 +270,4 @@ C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-i
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-ios\iossimulator-x64\OfficeAppLevarne.pdb
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-ios\iossimulator-x64\OfficeAppLevarne.genruntimeconfig.cache
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-ios\iossimulator-x64\ref\OfficeAppLevarne.dll
+C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-ios\iossimulator-x64\build-signature\signature

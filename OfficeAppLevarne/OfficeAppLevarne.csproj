@@ -63,6 +63,9 @@
 	  <Compile Update="Views\DaysDetailsPage.xaml.cs">
 	    <DependentUpon>DaysDetailsPage.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="Views\DirectionsPage.xaml.cs">
+	    <DependentUpon>DirectionsPage.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="Views\ProfilePage.xaml.cs">
 	    <DependentUpon>ProfilePage.xaml</DependentUpon>
 	  </Compile>
@@ -70,6 +73,9 @@
 
 	<ItemGroup>
 	  <MauiXaml Update="Views\DaysDetailsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\DirectionsPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\ProfilePage.xaml">

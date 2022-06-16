@@ -13,10 +13,14 @@ using System.Threading.Tasks;
 namespace OfficeAppLevarne.ViewModels
 {
     [QueryProperty(nameof(Day), "Day")]
+    // [QueryProperty(nameof(canCheckOut), "canCheckout")]
+    // [QueryProperty(nameof(canCheckIn), "canCheckIn")]
+
     public partial class DaysDetailsViewModel : BaseViewModel
     {
         Database db = new();
         public Command UpdateDayPersonCommand { get; }
+        public Command RemovePersonsCommand { get;  }
         DaysService daysService;
         WeeksService weeksService;
         public DaysDetailsViewModel(DaysService daysService, WeeksService weeksService)
@@ -25,24 +29,19 @@ namespace OfficeAppLevarne.ViewModels
             this.daysService = daysService;
             this.weeksService = weeksService;
             UpdateDayPersonCommand = new Command(async () => await UpdateDayPersonAsync());
-            canCheckIn = !CheckIfAtOffice() && day.available;
-            canCheckOut = CheckIfAtOffice();
+            RemovePersonsCommand = new Command(async () => await RemovePersonAsync());
         }
         [ObservableProperty]
         Day day;
 
-        [ObservableProperty]
-        bool canCheckOut;
 
         [ObservableProperty]
-        bool canCheckIn;
-        public bool CheckIfAtOffice()
-        {
-            Person person = db.getPerson();
-            if (person == null) return false;
-            return day.persons.FindIndex(p => p.name.Equals(person.name)) == -1;
-        }
+        bool canCheckOut = true;
 
+        [ObservableProperty]
+        bool canCheckIn = true;
+
+         
         async Task UpdateDayPersonAsync()
         {
             if (IsBusy)
@@ -53,18 +52,43 @@ namespace OfficeAppLevarne.ViewModels
 
                 day.persons.Add(person);
                 IsBusy = true;
-                
-                var newDay = await daysService.UpdateDay(day.weekId, day);
-                if(newDay != null)
-                {
-                    await weeksService.GetWeeks();
+                await daysService.UpdateDay(day.weekId, day);
+                await weeksService.GetWeeks();
                     
-                }
             }
             catch (Exception ex)
             {
-                Debug.WriteLine($"Unable to retrieve weeks: {ex.Message}");
+                Debug.WriteLine($"Unable to update day: {ex.Message}");
+                Vibration.Default.Vibrate(3);
                 await Application.Current.MainPage.DisplayAlert("Error!", ex.Message, "OK");
+            }
+            finally
+            {
+                IsBusy = false;
+            }
+
+        }
+
+        async Task RemovePersonAsync()
+        {
+            if (IsBusy)
+                return;
+            try
+            {
+                Person person = db.getPerson();
+
+                day.persons.RemoveAll(p => p.name.Equals(person.name));
+                IsBusy = true;
+
+                await daysService.UpdateDay(day.weekId, day);
+                await weeksService.GetWeeks();
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"Unable to update day: {ex.Message}");
+                Vibration.Default.Vibrate(3);
+                await Application.Current.MainPage.DisplayAlert("Error!", ex.Message, "OK");
+
             }
             finally
             {

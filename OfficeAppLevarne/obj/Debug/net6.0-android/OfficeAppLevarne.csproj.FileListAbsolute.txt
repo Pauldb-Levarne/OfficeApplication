@@ -1,11 +1,3 @@
-C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\bin\Debug\net6.0-android\OfficeAppLevarne.runtimeconfig.json
-C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\bin\Debug\net6.0-android\OfficeAppLevarne.dll
-C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\bin\Debug\net6.0-android\OfficeAppLevarne.pdb
-C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\bin\Debug\net6.0-android\com.companyname.officeapplevarne.apk
-C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\bin\Debug\net6.0-android\com.companyname.officeapplevarne.aab
-C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\bin\Debug\net6.0-android\com.companyname.officeapplevarne-Signed.aab
-C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\bin\Debug\net6.0-android\com.companyname.officeapplevarne-Signed.apk
-C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\bin\Debug\net6.0-android\com.companyname.officeapplevarne-Signed.apk.idsig
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\build.props
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\adb.props
@@ -100,6 +92,14 @@ C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-a
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\OfficeAppLevarne.AssemblyInfoInputs.cache
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\OfficeAppLevarne.AssemblyInfo.cs
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\OfficeAppLevarne.csproj.CoreCompileInputs.cache
+C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\bin\Debug\net6.0-android\OfficeAppLevarne.runtimeconfig.json
+C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\bin\Debug\net6.0-android\OfficeAppLevarne.dll
+C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\bin\Debug\net6.0-android\OfficeAppLevarne.pdb
+C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\bin\Debug\net6.0-android\com.companyname.officeapplevarne.apk
+C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\bin\Debug\net6.0-android\com.companyname.officeapplevarne.aab
+C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\bin\Debug\net6.0-android\com.companyname.officeapplevarne-Signed.aab
+C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\bin\Debug\net6.0-android\com.companyname.officeapplevarne-Signed.apk
+C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\bin\Debug\net6.0-android\com.companyname.officeapplevarne-Signed.apk.idsig
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\XamlC.stamp
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\OfficeAppLevarne.dll
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\OfficeAppLevarne.pdb
@@ -148,7 +148,6 @@ C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-a
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\Mono.Android.Export.dll
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\Mono.Android.Export.pdb
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\Mono.Android.pdb
-C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\mscorlib.dll
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\netstandard.dll
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\Newtonsoft.Json.dll
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\OfficeAppLevarne.dll
@@ -164,7 +163,6 @@ C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-a
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\SQLitePCLRaw.provider.sqlite3.dll
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.AppContext.dll
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Buffers.dll
-C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Collections.Concurrent.dll
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Collections.dll
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Collections.Immutable.dll
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Collections.NonGeneric.dll
@@ -180,7 +178,6 @@ C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-a
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Core.dll
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Data.Common.dll
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Data.DataSetExtensions.dll
-C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Data.dll
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Diagnostics.Contracts.dll
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Diagnostics.Debug.dll
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Diagnostics.DiagnosticSource.dll
@@ -191,7 +188,6 @@ C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-a
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Diagnostics.Tools.dll
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Diagnostics.TraceSource.dll
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Diagnostics.Tracing.dll
-C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.dll
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Drawing.dll
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Drawing.Primitives.dll
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Dynamic.Runtime.dll
@@ -241,9 +237,7 @@ C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-a
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Numerics.dll
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Numerics.Vectors.dll
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.ObjectModel.dll
-C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Private.CoreLib.dll
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Private.DataContractSerialization.dll
-C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Private.Uri.dll
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Private.Xml.dll
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Private.Xml.Linq.dll
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Reflection.DispatchProxy.dll
@@ -310,7 +304,6 @@ C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-a
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Web.dll
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Web.HttpUtility.dll
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Windows.dll
-C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Xml.dll
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Xml.Linq.dll
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Xml.ReaderWriter.dll
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Xml.Serialization.dll
@@ -954,3 +947,10 @@ C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-a
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\mscorlib.dll
+C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Collections.Concurrent.dll
+C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Data.dll
+C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.dll
+C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Private.CoreLib.dll
+C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Private.Uri.dll
+C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0-android\android\assets\System.Xml.dll

@@ -70,6 +70,7 @@
                         Text="{Binding Day.name, StringFormat='I will be at the office at {0}! 🚀'}" />
                 <Button BackgroundColor="#007aff"
                         HorizontalOptions="CenterAndExpand"
+                        Command="{Binding RemovePersonsCommand}"
                         FontSize="Micro"
                         IsVisible="{Binding CanCheckOut}"
                         TextColor="White"

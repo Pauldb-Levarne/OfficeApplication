@@ -1,4 +1,5 @@
 using OfficeAppLevarne.Models;
+using OfficeAppLevarne.Repository;
 using OfficeAppLevarne.ViewModels;
 
 namespace OfficeAppLevarne;
@@ -14,15 +15,12 @@ public partial class DaysPage : ContentPage
     private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
     {
         var day = ((VisualElement)sender).BindingContext as Day;
-
-
         if (day == null)
             return;
 
-
         await Shell.Current.GoToAsync(nameof(DaysDetailsPage), true, new Dictionary<string, object>
         {
-            {"Day", day }
+            {"Day", day },
         });
 
     }

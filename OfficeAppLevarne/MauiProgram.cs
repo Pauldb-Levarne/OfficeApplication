@@ -21,12 +21,15 @@ public static class MauiProgram
 		builder.Services.AddTransient<MainPage>();
 		builder.Services.AddSingleton<WeeksService>();
 		builder.Services.AddSingleton<DaysService>();
+		builder.Services.AddSingleton<MapService>();
 		builder.Services.AddTransient<WeeksViewModel>();
 		builder.Services.AddTransient<DaysViewModel>();
 		builder.Services.AddTransient<DaysPage>();
 		builder.Services.AddTransient<DaysDetailsPage>();
 		builder.Services.AddTransient<DaysDetailsViewModel>();
 		builder.Services.AddTransient<ProfilePage>();
+		builder.Services.AddTransient<DirectionsPage>();
+		builder.Services.AddTransient<DirectionsViewModel>();
 		builder.Services.AddTransient<ProfileViewModel>();
 		builder.Services.AddSingleton<Database>();
 

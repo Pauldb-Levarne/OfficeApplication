@@ -16,7 +16,9 @@
                   RowSpacing="0">
                 <CollectionView ItemsSource="{Binding Weeks}"
                                 SelectionMode="None"
-                                Grid.ColumnSpan="2">
+                                Grid.ColumnSpan="2"
+                                ItemSizingStrategy="MeasureFirstItem"
+                                x:Name="collectionView">
                     <CollectionView.ItemTemplate>
                         <DataTemplate x:DataType="model:Week">
                             <Grid>

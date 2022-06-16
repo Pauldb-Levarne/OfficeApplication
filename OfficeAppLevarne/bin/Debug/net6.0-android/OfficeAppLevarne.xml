@@ -22,6 +22,9 @@
         <member name="P:OfficeAppLevarne.ViewModels.DaysViewModel.Week">
             <inheritdoc cref="F:OfficeAppLevarne.ViewModels.DaysViewModel.week"/>
         </member>
+        <member name="P:OfficeAppLevarne.ViewModels.DirectionsViewModel.DistanceToHQ">
+            <inheritdoc cref="F:OfficeAppLevarne.ViewModels.DirectionsViewModel.distanceToHQ"/>
+        </member>
         <member name="P:OfficeAppLevarne.ViewModels.ProfileViewModel.Person">
             <inheritdoc cref="F:OfficeAppLevarne.ViewModels.ProfileViewModel.person"/>
         </member>

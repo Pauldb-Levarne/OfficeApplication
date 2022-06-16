@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OfficeAppLevarne.Views.DirectionsPage"
+             xmlns:model="clr-namespace:OfficeAppLevarne.Models"
+             x:DataType="viewmodel:DirectionsViewModel"
+             xmlns:viewmodel="clr-namespace:OfficeAppLevarne.ViewModels">
+    <Grid ColumnDefinitions="*, *"
+          ColumnSpacing="5"
+          RowDefinitions="*, Auto"
+          RowSpacing="0"
+          Padding="10">
+        <VerticalStackLayout Grid.ColumnSpan="2" Spacing="10">
+
+            <Label TextColor="Orange"
+                   TextType="Html"
+                   HorizontalTextAlignment="Center"
+                   Text="{Binding DistanceToHQ, StringFormat='&lt;strong&gt;Current distance to the HQ : &lt;/strong&gt;{0:F2} km'}" />
+            <Button BackgroundColor="#007aff"
+                    HorizontalOptions="CenterAndExpand"
+                    Command="{Binding RefreshDistanceCommand}"
+                    FontSize="Micro"
+                    TextColor="White"
+                    Text="Refresh location" />
+            <Button BackgroundColor="#007aff"
+                    HorizontalOptions="CenterAndExpand"
+                    Command="{Binding StartNavigationCommand}"
+                    FontSize="Micro"
+                    TextColor="White"
+                    Text="Open navigation" />
+        </VerticalStackLayout>
+    </Grid>
+
+</ContentPage>
+
+

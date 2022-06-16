@@ -50,6 +50,7 @@ namespace OfficeAppLevarne.ViewModels
             catch (Exception ex)
             {
                 Debug.WriteLine($"Unable to retrieve person: {ex.Message}");
+                Vibration.Default.Vibrate(3);
                 await Application.Current.MainPage.DisplayAlert("Error!", ex.Message, "OK");
             }
             finally
@@ -87,6 +88,7 @@ namespace OfficeAppLevarne.ViewModels
             catch (Exception ex)
             {
                 Debug.WriteLine($"Unable to update person: {ex.Message}");
+                Vibration.Default.Vibrate(3);
                 await Application.Current.MainPage.DisplayAlert("Error!", ex.Message, "OK");
             }
             finally

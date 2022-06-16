@@ -13,7 +13,9 @@ namespace OfficeAppLevarne.Services
     public class WeeksService
     {
         HttpClient client = new();
-        private string endpoint = "http://10.0.2.2:5050/";
+        // private string endpoint = "http://10.0.2.2:5050/";
+        private string endpoint = "http://localhost:5050/";
+
 
 
 

@@ -23,10 +23,11 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
+          "net6.0",
           "net6.0-android",
           "net6.0-ios",
           "net6.0-maccatalyst",
-          "net6.0-windows10.0.19041"
+          "net6.0-windows10.0.19041.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -34,6 +35,10 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          },
           "net6.0-android31.0": {
             "targetAlias": "net6.0-android",
             "projectReferences": {}
@@ -47,7 +52,7 @@
             "projectReferences": {}
           },
           "net6.0-windows10.0.19041": {
-            "targetAlias": "net6.0-windows10.0.19041",
+            "targetAlias": "net6.0-windows10.0.19041.0",
             "projectReferences": {}
           }
         },
@@ -58,6 +63,74 @@
         }
       },
       "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.0.0-preview3, )"
+            },
+            "Microsoft.Maui.Dependencies": {
+              "target": "Package",
+              "version": "[6.0.300-rc.1.5355, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Maui.Extensions": {
+              "target": "Package",
+              "version": "[6.0.300-rc.1.5355, )",
+              "autoReferenced": true
+            },
+            "SQLiteNetExtensions": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "SQLitePCLRaw.bundle_green": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "SQLitePCLRaw.core": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "SQLitePCLRaw.provider.dynamic_cdecl": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "SQLitePCLRaw.provider.sqlite3": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Maui.Controls": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Maui.Core": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Maui.Essentials": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300-preview.22204.3\\RuntimeIdentifierGraph.json"
+        },
         "net6.0-android31.0": {
           "targetAlias": "net6.0-android",
           "dependencies": {
@@ -301,7 +374,7 @@
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300-preview.22204.3\\RuntimeIdentifierGraph.json"
         },
         "net6.0-windows10.0.19041": {
-          "targetAlias": "net6.0-windows10.0.19041",
+          "targetAlias": "net6.0-windows10.0.19041.0",
           "dependencies": {
             "CommunityToolkit.Mvvm": {
               "target": "Package",

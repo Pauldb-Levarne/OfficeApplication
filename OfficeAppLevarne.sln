@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OfficeAppLevarne", "OfficeAppLevarne\OfficeAppLevarne.csproj", "{C5D32AF7-ADC9-4AF8-8C36-7D78195ED88C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfficeAppLevarne-UnitTests", "OfficeAppLevarne-UnitTests\OfficeAppLevarne-UnitTests.csproj", "{2762C48D-B74A-4604-B924-380A502A3B2F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests-OfficeApp", "UnitTests-OfficeApp\UnitTests-OfficeApp.csproj", "{1232D928-0A88-45C2-A1F3-B1517DAE70AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +19,10 @@ Global
 		{C5D32AF7-ADC9-4AF8-8C36-7D78195ED88C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5D32AF7-ADC9-4AF8-8C36-7D78195ED88C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C5D32AF7-ADC9-4AF8-8C36-7D78195ED88C}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{2762C48D-B74A-4604-B924-380A502A3B2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2762C48D-B74A-4604-B924-380A502A3B2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2762C48D-B74A-4604-B924-380A502A3B2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2762C48D-B74A-4604-B924-380A502A3B2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1232D928-0A88-45C2-A1F3-B1517DAE70AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1232D928-0A88-45C2-A1F3-B1517DAE70AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1232D928-0A88-45C2-A1F3-B1517DAE70AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1232D928-0A88-45C2-A1F3-B1517DAE70AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

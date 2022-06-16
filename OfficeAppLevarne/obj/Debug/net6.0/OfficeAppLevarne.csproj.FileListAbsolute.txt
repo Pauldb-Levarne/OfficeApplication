@@ -1,0 +1,13 @@
+C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0\OfficeAppLevarne.csproj.AssemblyReference.cache
+C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0\OfficeAppLevarne.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0\OfficeAppLevarne.AssemblyInfoInputs.cache
+C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0\OfficeAppLevarne.AssemblyInfo.cs
+C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0\OfficeAppLevarne.csproj.CoreCompileInputs.cache
+C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\bin\Debug\net6.0\OfficeAppLevarne.deps.json
+C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\bin\Debug\net6.0\OfficeAppLevarne.dll
+C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\bin\Debug\net6.0\OfficeAppLevarne.pdb
+C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0\XamlC.stamp
+C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0\OfficeAppLevarne.dll
+C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0\refint\OfficeAppLevarne.dll
+C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0\OfficeAppLevarne.pdb
+C:\Users\pauld\source\repos\OfficeAppLevarne\OfficeAppLevarne\obj\Debug\net6.0\ref\OfficeAppLevarne.dll

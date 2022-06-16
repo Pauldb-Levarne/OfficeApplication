@@ -22,7 +22,7 @@ public partial class DaysPage : ContentPage
 
         await Shell.Current.GoToAsync(nameof(DaysDetailsPage), true, new Dictionary<string, object>
         {
-            {"Day", day },
+            {"Day", day }
         });
 
     }

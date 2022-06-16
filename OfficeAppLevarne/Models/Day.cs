@@ -11,7 +11,9 @@ namespace OfficeAppLevarne.Models
 {
     public class Day
     {
+
         [PrimaryKey]
+        [JsonIgnore]
         public int Id { get; set; }
         public string note { get; set; }
         public bool available { get; set; }
@@ -26,6 +28,9 @@ namespace OfficeAppLevarne.Models
 
         [JsonIgnore]
         public string ButtonText => $"{name} - ({spotsAvailable}) available spots";
+
+        [JsonIgnore]
+        public string weekId { get; set; }
 
     }
 }

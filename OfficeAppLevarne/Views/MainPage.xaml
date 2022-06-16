@@ -7,8 +7,8 @@
              x:DataType="viewmodel:WeeksViewModel"
              BackgroundColor="#f5f8fd"
              Title="{Binding Title}">
-    <RefreshView IsRefreshing="{Binding IsBusy}"
-                 Command="{Binding GetWeeksCommand}">
+    <RefreshView IsRefreshing="{Binding IsRefreshing}"
+                 Command="{Binding RefreshCommand}">
         <ScrollView>
             <Grid ColumnDefinitions="*, *"
                   ColumnSpacing="0"

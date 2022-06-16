@@ -12,7 +12,7 @@
           ColumnSpacing="5"
           RowDefinitions="*, Auto"
           RowSpacing="0">
-        <CollectionView ItemsSource="{Binding Days}"
+        <CollectionView ItemsSource="{Binding Week.days}"
                         SelectionMode="None"
                         Grid.ColumnSpan="2">
             <CollectionView.ItemTemplate>

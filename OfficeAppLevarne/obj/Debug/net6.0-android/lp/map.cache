@@ -5,10 +5,8 @@ Microsoft.Maui.Controls.Xaml.dll
 Microsoft.Maui.dll
 Microsoft.Maui.Essentials.dll
 Microsoft.Maui.Graphics.dll
-SQLitePCLRaw.batteries_green.dll
 SQLitePCLRaw.batteries_v2.dll
-SQLitePCLRaw.lib.e_sqlite3.dll
-SQLitePCLRaw.provider.e_sqlite3.dll
+SQLitePCLRaw.lib.e_sqlite3.android.dll
 Xamarin.Android.Glide.DiskLruCache.dll
 Xamarin.Android.Glide.dll
 Xamarin.Android.Glide.GifDecoder.dll
@@ -157,6 +155,5 @@ Microsoft.Maui.Controls.Compatibility.aar
 maui.aar
 Microsoft.Maui.aar
 Microsoft.Maui.Essentials.aar
-Xamarin.Google.Crypto.Tink.Android.aar
-SQLitePCLRaw.lib.e_sqlite3.android.dll
 SQLitePCLRaw.lib.e_sqlite3.android.aar
+Xamarin.Google.Crypto.Tink.Android.aar

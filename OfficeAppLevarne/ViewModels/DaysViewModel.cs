@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace OfficeAppLevarne.ViewModels
 {
-    [QueryProperty(nameof(Days), "Days")]
+    [QueryProperty(nameof(Week), "Week")]
     public partial class DaysViewModel : BaseViewModel
     {
         public DaysViewModel()
@@ -20,7 +20,7 @@ namespace OfficeAppLevarne.ViewModels
         }
 
         [ObservableProperty]
-        List<Day> days;
+        Week week;
 
 
     }

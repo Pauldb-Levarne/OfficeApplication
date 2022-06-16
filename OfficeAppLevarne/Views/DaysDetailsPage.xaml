@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OfficeAppLevarne.DaysDetailsPage"
+             xmlns:model="clr-namespace:OfficeAppLevarne.Models"
+             xmlns:viewmodel="clr-namespace:OfficeAppLevarne.ViewModels"
+             x:DataType="viewmodel:DaysDetailsViewModel"
+             BackgroundColor="#f5f8fd"
+             Title="{Binding Day.name}">
+    <ScrollView>
+        <Grid ColumnDefinitions="*, *"
+              ColumnSpacing="5"
+              RowDefinitions="*, Auto"
+              RowSpacing="0"
+              Padding="10">
+            <VerticalStackLayout  Grid.ColumnSpan="2"
+                                  Padding="10"
+                                  BackgroundColor="#007aff"
+                                  Grid.Row="0">
+                
+                <Label TextColor="White"
+                       FontSize="Micro"
+                       TextType="Html"
+                       Text="{Binding Day.weekId, StringFormat='&lt;strong&gt;Week id :  &lt;/strong&gt;{0}'}" />
+                <Label TextColor="White"
+                       FontSize="Micro"
+                       TextType="Html"
+                       Text="{Binding Day.capacity, StringFormat='&lt;strong&gt;Total capacity :  &lt;/strong&gt;{0}'}" />
+                <Label TextColor="White"
+                       FontSize="Micro"
+                       TextType="Html"
+                       Text="{Binding Day.available, StringFormat='&lt;strong&gt;Is available? : &lt;/strong&gt;{0}'}" />
+                <Label TextColor="White"
+                       FontSize="Micro"
+                       TextType="Html"
+                       Text="{Binding Day.spotsAvailable, StringFormat='&lt;strong&gt;Spots available : &lt;/strong&gt;{0}'}" />
+                <Label TextColor="White"
+                       FontSize="Micro"
+                       TextType="Html"
+                       Text="{Binding Day.note, StringFormat='&lt;strong&gt;Note :  &lt;/strong&gt;{0}'}" />
+
+                <VerticalStackLayout Padding="0,20,20,0">
+                    <Label TextColor="White"
+                           FontAttributes="Bold"
+                           FontSize="Micro"
+                           TextDecorations="Underline"
+                           Text="{Binding Day.name, StringFormat='These persons will be add the office at {0} :'}" />
+                    <CollectionView SelectionMode="None"
+                                    ItemsSource="{Binding Day.persons}">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate x:DataType="model:Person">
+                                <Label TextColor="White"
+                                       FontSize="Micro"
+                                       Text="{Binding name}" />
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </VerticalStackLayout>
+
+            </VerticalStackLayout>
+            <VerticalStackLayout Grid.ColumnSpan="2"
+                                 Grid.Row="1">
+                <Button BackgroundColor="#007aff"
+                        HorizontalOptions="CenterAndExpand"
+                        IsVisible="{Binding CanCheckIn}"
+                        Margin="10"
+                        FontSize="Micro"
+                        TextColor="White"
+                        Command="{Binding UpdateDayPersonCommand}"
+                        Text="{Binding Day.name, StringFormat='I will be at the office at {0}! 🚀'}" />
+                <Button BackgroundColor="#007aff"
+                        HorizontalOptions="CenterAndExpand"
+                        FontSize="Micro"
+                        IsVisible="{Binding CanCheckOut}"
+                        TextColor="White"
+                        Text="{Binding Day.name, StringFormat='I will nog longer be at the office at {0}! 😢'}" />
+            </VerticalStackLayout>
+        </Grid>
+
+    </ScrollView>
+
+
+</ContentPage>

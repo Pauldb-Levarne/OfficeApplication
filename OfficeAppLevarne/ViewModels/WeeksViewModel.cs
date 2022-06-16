@@ -1,4 +1,5 @@
-﻿using OfficeAppLevarne.Models;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using OfficeAppLevarne.Models;
 using OfficeAppLevarne.Services;
 using System;
 using System.Collections.Generic;
@@ -14,6 +15,12 @@ namespace OfficeAppLevarne.ViewModels
     {
         public ObservableCollection<Week> Weeks { get; } = new();
         public Command GetWeeksCommand { get;}
+        public Command RefreshCommand { get; }
+
+        [ObservableProperty]
+        bool isRefreshing;
+
+
         WeeksService weeksService;
 
         public WeeksViewModel(WeeksService weeksService)
@@ -22,6 +29,12 @@ namespace OfficeAppLevarne.ViewModels
             this.weeksService = weeksService;
             GetWeeksCommand = new Command(async () => await GetWeeksAsync());
             GetWeeksCommand.Execute(this);
+            RefreshCommand = new Command(async () =>
+            {
+                IsRefreshing = true;
+                await GetWeeksAsync();
+                IsRefreshing = false;
+            });
         }
 
         async Task GetWeeksAsync()

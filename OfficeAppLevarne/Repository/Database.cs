@@ -42,6 +42,8 @@ namespace OfficeAppLevarne.Repository
         }
         public Person getPerson()
         {
+            List<Person> list = _database.Table<Person>().ToList();
+
             return _database.Table<Person>().FirstOrDefault();
         }
 
